@@ -592,7 +592,7 @@ class Akismet_Admin {
 					// Old versions of Akismet stored the message as a literal string in the commentmeta.
 					// New versions don't do that for two reasons:
 					// 1) Save space.
-					// 2) The message can be translated into the current language of the blog, not stuck 
+					// 2) The message can be translated into the current language of the blog, not stuck
 					//    in the language of the blog when the comment was made.
 					$message = esc_html( $row['message'] );
 				}
